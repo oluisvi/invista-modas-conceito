@@ -2,7 +2,11 @@
 
 Protótipo estático, mobile-first e independente para explorar uma vitrine complementar ao Instagram da Invista Modas.
 
-## Abrir
+## Demonstração
+
+[Ver protótipo publicado](https://oluisvi.github.io/invista-modas-conceito/)
+
+## Abrir localmente
 
 Abra `index.html` diretamente ou sirva esta pasta localmente com `python -m http.server 8769`.
 
