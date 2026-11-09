@@ -2,9 +2,10 @@
 
 ## Imagens conceituais geradas para este protótipo
 
-- `assets/campaign-street.png` — fotografia editorial conceitual com duas mulheres adultas em looks casuais contemporâneos; gerada para esta demonstração.
-- `assets/editorial-rail.png` — arara conceitual com peças diversas e texturas; gerada para esta demonstração.
-- `assets/lookbook-portrait.png` — retrato editorial conceitual; gerado para esta demonstração.
+- `assets/campaign-street.jpg` — fotografia editorial conceitual com duas mulheres adultas em looks casuais contemporâneos; gerada para esta demonstração.
+- `assets/editorial-rail.jpg` — arara conceitual com peças diversas e texturas; gerada para esta demonstração.
+- `assets/lookbook-portrait.jpg` — retrato editorial conceitual; gerado para esta demonstração.
+- `assets/malharia.jpg`, `assets/blusas.jpg`, `assets/calcas.jpg`, `assets/vestidos.jpg`, `assets/alfaiataria.jpg` e `assets/acessorios.jpg` — seis referências de vestuário e acessórios geradas para esta demonstração.
 
 Estas imagens não são fotos da Invista, de clientes, de marcas reais ou de produtos disponíveis. Não usar como prova de estoque.
 
