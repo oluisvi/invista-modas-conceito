@@ -1,0 +1,7 @@
+# Internal project notes are not part of the public demo.
+/BRIEF_DO_PROJETO.md
+/MENSAGEM_PARA_INVISTA.md
+
+# Keep the optimized web assets in the public repository.
+/assets/*.png
+

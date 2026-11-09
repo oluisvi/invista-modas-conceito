@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR" data-design="editorial">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#f4f0e9">
+  <meta name="description" content="Uma vitrine conceitual e independente para explorar referências de estilo da Invista Modas.">
+  <title>Invista Modas — curadoria em movimento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="concept-bar"><span class="concept-dot" aria-hidden="true"></span> PRÉVIA CONCEITUAL · IMAGENS ILUSTRATIVAS</div>
+
+  <header class="site-header" id="topo">
+    <a class="brand" href="#topo" aria-label="Invista Modas, início">
+      <span class="brand-mark" aria-hidden="true">I</span>
+      <span class="brand-word">INVISTA<small>MODAS · MONTE SIÃO</small></span>
+    </a>
+    <nav class="header-links" aria-label="Links da loja">
+      <a href="https://www.instagram.com/invistamodas_/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+      <a href="https://api.whatsapp.com/message/RRYE7XVBWTPGL1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="direction-shell" aria-labelledby="direction-title">
+      <div class="direction-copy">
+        <p class="eyebrow">UMA IDEIA PARA A INVISTA</p>
+        <h1 id="direction-title">Três caminhos.<br><em>Uma curadoria em movimento.</em></h1>
+        <p>Explore a mesma proposta por três experiências visuais: narrativa editorial, descoberta direta ou lookbook.</p>
+      </div>
+      <div class="direction-picker" role="tablist" aria-label="Escolha uma direção visual">
+        <button class="direction-tab is-active" id="tab-editorial" type="button" role="tab" aria-selected="true" aria-controls="view-editorial" tabindex="0" data-design-choice="editorial"><span>01</span> Editorial</button>
+        <button class="direction-tab" id="tab-loja" type="button" role="tab" aria-selected="false" aria-controls="view-loja" tabindex="-1" data-design-choice="loja"><span>02</span> Vitrine direta</button>
+        <button class="direction-tab" id="tab-lookbook" type="button" role="tab" aria-selected="false" aria-controls="view-lookbook" tabindex="-1" data-design-choice="lookbook"><span>03</span> Lookbook</button>
+      </div>
+    </section>
+
+    <div class="design-views" id="referencias">
+      <section class="design-view editorial-view" id="view-editorial" role="tabpanel" aria-labelledby="tab-editorial" data-design-view="editorial">
+        <section class="editorial-hero" aria-labelledby="editorial-title">
+          <div class="editorial-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> INVISTA MODAS · MONTE SIÃO</p>
+            <h2 id="editorial-title">Vista o que<br>faz <em>sentido.</em></h2>
+            <p class="hero-intro">Uma vitrine para descobrir referências, reunir ideias e começar uma conversa com a loja no seu tempo.</p>
+            <div class="hero-actions">
+              <a class="button button-dark" href="#explorar-editorial">Explorar inspirações <span aria-hidden="true">↓</span></a>
+              <a class="inline-link" href="https://www.instagram.com/invistamodas_/" target="_blank" rel="noopener noreferrer">Acompanhar no Instagram ↗</a>
+            </div>
+            <p class="tiny-note">Imagens ilustrativas; não representam peças ou estoque da loja.</p>
+          </div>
+          <figure class="editorial-image">
+            <img src="assets/campaign-street.jpg" alt="Duas mulheres em looks casuais de tons neutros e ameixa, fotografia conceitual" fetchpriority="high">
+            <figcaption><span>01 / EDITORIAL</span><span>REFERÊNCIA VISUAL</span></figcaption>
+          </figure>
+          <span class="editorial-index" aria-hidden="true">INV.01</span>
+        </section>
+
+        <section class="editorial-note" aria-label="Ideia da vitrine">
+          <p class="eyebrow">CURADORIA EM MOVIMENTO</p>
+          <p>Da primeira inspiração à dúvida sobre uma peça, uma jornada simples pode deixar a conversa mais clara.</p>
+          <span class="note-symbol" aria-hidden="true">✳</span>
+        </section>
+
+        <section class="editorial-selection section-wrap" data-collection-target data-anchor="explorar">
+          <div class="section-heading">
+            <div><p class="eyebrow">TRÊS REFERÊNCIAS · SEM REPETIÇÕES</p><h2>Um olhar para<br><em>combinar.</em></h2></div>
+            <p>Uma seleção ilustrativa de texturas e combinações. Cada imagem é conceitual e não confirma produto, marca ou disponibilidade na Invista.</p>
+          </div>
+          <div class="editorial-grid" id="editorial-cards"></div>
+        </section>
+      </section>
+
+      <section class="design-view direct-view" id="view-loja" role="tabpanel" aria-labelledby="tab-loja" data-design-view="loja" hidden>
+        <div class="direct-topline"><span>INVISTA MODAS</span><span>REFERÊNCIAS VISUAIS · 01—03</span></div>
+        <section class="direct-intro" aria-labelledby="direct-title">
+          <div><p class="eyebrow">ENCONTRE UM CAMINHO</p><h2 id="direct-title">Qual estilo<br>chama <em>você?</em></h2></div>
+          <p>Busque uma referência ou explore por sensação. O protótipo demonstra uma navegação possível sem inventar catálogo ou estoque.</p>
+        </section>
+        <section class="direct-catalog" data-collection-target data-anchor="explorar" aria-label="Explorar referências ilustrativas">
+          <div class="catalog-toolbar">
+            <div class="filter-list" id="filter-list" role="group" aria-label="Filtrar inspirações"></div>
+            <label class="search-field"><span aria-hidden="true">⌕</span><span class="visually-hidden">Buscar uma inspiração</span><input id="reference-search" type="search" placeholder="Buscar por textura, cor…" autocomplete="off"></label>
+          </div>
+          <p class="catalog-count" id="catalog-count" aria-live="polite" aria-atomic="true"></p>
+          <div class="direct-grid" id="direct-cards"></div>
+          <p class="empty-state" id="empty-state" hidden>Nenhuma referência com esse termo. Tente outra palavra ou filtro.</p>
+          <p class="inventory-note"><span aria-hidden="true">✳</span> Referências de estilo para demonstração. Modelos, tamanhos, valores e estoque devem ser confirmados com a loja.</p>
+        </section>
+      </section>
+
+      <section class="design-view lookbook-view" id="view-lookbook" role="tabpanel" aria-labelledby="tab-lookbook" data-design-view="lookbook" hidden>
+        <section class="lookbook-stage" data-collection-target aria-labelledby="lookbook-title">
+          <div class="lookbook-label"><span>INVISTA · CADERNO DE ESTILO</span><span id="lookbook-counter">01 / 03</span></div>
+          <div class="lookbook-scene" id="lookbook-scene">
+            <img id="lookbook-image" src="assets/campaign-street.jpg" alt="Referência visual conceitual de moda">
+            <div class="scene-shade"></div>
+            <div class="scene-copy"><p class="eyebrow" id="lookbook-kicker">TEXTURAS · 01</p><h2 id="lookbook-title">Trama<br><em>com presença.</em></h2><p id="lookbook-description">Texturas que ganham força quando encontram formas simples.</p><button class="button button-light" type="button" data-open-ref="trama">Explorar essa referência <span aria-hidden="true">↗</span></button></div>
+            <span class="scene-credit">IMAGEM GERADA · ESTUDO VISUAL</span>
+          </div>
+          <div class="lookbook-controls">
+            <p>Uma sequência de referências, sem pressupor peças disponíveis.</p>
+            <div class="lookbook-buttons"><button class="round-control" id="lookbook-prev" type="button" aria-label="Referência anterior">←</button><button class="round-control" id="lookbook-next" type="button" aria-label="Próxima referência">→</button></div>
+          </div>
+          <div class="lookbook-rail" id="lookbook-rail" role="group" aria-label="Escolher referência do lookbook"></div>
+        </section>
+      </section>
+    </div>
+
+    <section class="about-contact section-wrap" id="sobre" data-anchor="sobre">
+      <div class="about-title"><p class="eyebrow">UM COMEÇO PARA CONVERSAR</p><h2>Mais contexto<br>antes do <em>oi.</em></h2></div>
+      <div class="about-body"><p>Esta proposta organiza referências visuais e leva a pessoa até os canais que a Invista já apresenta. A equipe confirma modelos, marcas, tamanhos e disponibilidade no atendimento.</p><div class="store-meta"><span>ENDEREÇO DIVULGADO NA BIO</span><strong>Rua JK, 670 · Centro<br>Monte Sião / MG</strong><small>Confirme o endereço e o horário com a loja antes de visitar.</small></div><div class="about-actions"><a class="button button-plum" href="https://api.whatsapp.com/message/RRYE7XVBWTPGL1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">Falar com a loja <span aria-hidden="true">↗</span></a><a class="inline-link" href="https://www.facebook.com/632954403243527/" target="_blank" rel="noopener noreferrer">Facebook Invista Moda ↗</a></div></div>
+    </section>
+
+    <section class="closing" id="contato" data-anchor="contato"><p class="eyebrow">SUA ESCOLHA COMEÇA COM UM OLHAR</p><h2>Descubra.<br><em>Pergunte. Combine.</em></h2><a class="button button-dark" href="https://www.instagram.com/invistamodas_/" target="_blank" rel="noopener noreferrer">Visitar Instagram <span aria-hidden="true">↗</span></a><p>Uma demonstração conceitual independente. Não é o site oficial da Invista Modas.</p></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="#topo" aria-label="Voltar ao início"><span class="brand-mark" aria-hidden="true">I</span><span class="brand-word">INVISTA<small>MODAS · CONCEITO DIGITAL</small></span></a><span>IMAGENS CONCEITUAIS · ESTOQUE A CONFIRMAR</span><a href="https://www.instagram.com/invistamodas_/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a></footer>
+
+  <dialog class="reference-dialog" id="reference-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Fechar detalhes">×</button>
+    <div class="dialog-image"><img id="dialog-image" src="assets/campaign-street.jpg" alt=""></div>
+    <div class="dialog-content"><p class="eyebrow" id="dialog-kicker">INSPIRAÇÃO ILUSTRATIVA</p><h2 id="dialog-title">Referência</h2><p id="dialog-description"></p><p class="dialog-caveat">Imagem e combinação conceituais. Não representam produto, marca, tamanho, preço ou disponibilidade da loja.</p><div class="dialog-actions"><button class="button button-light-outline" id="copy-inquiry" type="button">Copiar pergunta</button><a class="button button-plum" href="https://api.whatsapp.com/message/RRYE7XVBWTPGL1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">Abrir WhatsApp <span aria-hidden="true">↗</span></a></div><p class="copy-status" id="copy-status" role="status" aria-live="polite"></p></div>
+  </dialog>
+</body>
+</html>
+
